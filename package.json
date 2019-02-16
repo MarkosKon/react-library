@@ -3,5 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Markos Konstantopoulos <markoskonstanto@hotmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint --ext js,jsx src",
+    "lint:fix": "eslint --ext js,jsx --fix src"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4"
+  }
 }
