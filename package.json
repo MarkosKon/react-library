@@ -1,0 +1,7 @@
+{
+  "name": "create-library",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Markos Konstantopoulos <markoskonstanto@hotmail.com>",
+  "license": "MIT"
+}
